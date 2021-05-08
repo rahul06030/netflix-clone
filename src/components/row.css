@@ -1,3 +1,7 @@
+.row{
+    margin-left:20px ;
+    color:white;
+}
 .row_posters{
     display:flex;
     overflow-y: hidden;
@@ -8,15 +12,21 @@
     display:none;
 }
 .row_poster{
-    /* display:flex; */
     object-fit: contain;
     width:100%;
-    max-height:12rem;
+    max-height:10rem;
     /* max-height:100px; */
-    margin :10px;
+    margin-right :11px;
     transition: transform 450ms;
     }
 .row_poster:hover{
     transform: scale(1.08);
 
+}
+.row_Large{
+    max-height: 16rem;
+
+}
+.row_Large:hover{
+    transform:scale(1.09) ;
 }
